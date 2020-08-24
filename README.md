@@ -5,6 +5,7 @@ python main.py
 * 可以用 python 2
 # 如何產生 requirements.txt
 ```
+pip install pandas requests
 pip freeze > requirements.txt
 ```
 # 如何使用 requirements.txt
