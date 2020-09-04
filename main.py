@@ -11,4 +11,4 @@ import datetime
 
 data = json.loads(response.text)
 df = pd.DataFrame(data['chart']['result'][0]['indicators']['quote'][0], index=pd.to_datetime(np.array(data['chart']['result'][0]['timestamp'])*1000*1000*1000))
-df.head()
+print(df.head())
